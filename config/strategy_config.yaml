@@ -1,0 +1,63 @@
+# strategy_config.yaml
+# API 金鑰設定 (實際金鑰應存放在 Colab Secrets)
+api_keys:
+  google_gemini_api_key: "YOUR_GEMINI_API_KEY_FROM_COLAB_SECRETS_OR_ENV" # 實際由 config_manager 處理
+
+# 數據快取設定
+cache_settings:
+  default_cache_duration_hours: 12 # API 數據快取預設有效期 (小時)
+  api_cache_database_path: "MyFinancialSystem/main_data/api_cache/api_cache.sqlite" # API 快取資料庫路徑
+
+# 市場設定
+market_settings:
+  default_stock_market: "US" # 預設關注市場 (US/TW)
+  us_stock_pool: ["SPY", "AAPL", "MSFT", "GOOG", "TSLA"] # 美股觀察池範例
+  tw_stock_pool: ["0050.TW", "2330.TW", "2454.TW"] # 台股觀察池範例
+
+# AI 分析設定
+ai_analyzer_settings:
+  default_model: "gemini-1.5-flash-latest" # 預設使用的 Gemini 模型
+  suggestion_temperature: 0.7 # AI 生成建議時的溫度參數
+  mock_api_calls: True # True 表示模擬 API 回應，False 表示嘗試真實調用 (需有 API Key)
+
+# 日誌設定
+logging_settings:
+  log_file_directory: "MyFinancialSystem/logs/" # 日誌檔案存放目錄
+  log_file_name_prefix: "financial_system_log" # 日誌檔案名稱前綴
+  console_log_level: "INFO" # 控制台日誌級別
+  file_log_level: "DEBUG" # 檔案日誌級別
+
+# 數據儲存設定
+data_storage_settings:
+  base_market_data_directory: "MyFinancialSystem/main_data/market_data/" # 市場數據儲存基礎目錄
+  us_stocks_subdir: "us_stocks/" # 美股數據子目錄
+  tw_stocks_subdir: "tw_stocks/" # 台股數據子目錄
+
+# 風險模型設定
+risk_model_settings:
+  rsi_low_threshold: 30
+  rsi_high_threshold: 70
+  volatility_period_days: 20
+  historical_volatility_threshold_pct: 60.0
+
+# Dash Web App 設定
+dash_app_settings:
+  host: "0.0.0.0"
+  port: 8050
+  debug_mode: True
+  app_title: "金融市場分析與風險評估系統 v0.1"
+
+# 回測器設定
+backtester_settings:
+  initial_capital: 100000.0
+  default_trading_costs_pct: 0.001 # 預設交易成本百分比 (例如 0.1%)
+  # risk_free_rate_symbol: "^IRX" # FRED 13 Week Treasury Bill (用於夏普比率, 另一選擇是 GS3M, DTB3)
+  # risk_free_rate_symbol: "GS3M" # FRED 美國3個月國庫券 (用於夏普比率)
+  risk_free_rate_fixed_pct: 0.02 # 固定年化無風險利率 2% (作為無法獲取動態數據時的備援)
+  benchmark_us_symbol: "SPY" # 美股基準
+  benchmark_tw_symbol: "^TWII" # 台股加權指數 (Yahoo Finance 代碼)
+
+# 其他範例設定
+example_setting:
+  description: "這是一個範例設定，包含繁體中文描述。"
+  value: 42

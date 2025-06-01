@@ -1,0 +1,1270 @@
+2025-06-01 11:57:47,692 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 11:57:47,692 - DEBUG - test_setup - 這是一條來自 test_setup.py 的 DEBUG 測試訊息。 (test_setup.py:52)
+2025-06-01 11:57:47,692 - INFO - test_setup - 這是一條來自 test_setup.py 的 INFO 測試訊息。 (test_setup.py:53)
+2025-06-01 11:57:47,692 - WARNING - test_setup - 這是一條來自 test_setup.py 的 WARNING 測試訊息。 (test_setup.py:54)
+2025-06-01 11:57:47,692 - ERROR - test_setup - 這是一條來自 test_setup.py 的 ERROR 測試訊息。 (test_setup.py:55)
+2025-06-01 11:57:47,692 - CRITICAL - test_setup - 這是一條來自 test_setup.py 的 CRITICAL 測試訊息。 (test_setup.py:56)
+2025-06-01 12:00:11,172 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:00:11,172 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:00:11,172 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:00:11,172 - INFO - db_cache_manager - 開始設定新的 API 快取 session。 (db_cache_manager.py:34)
+2025-06-01 12:00:11,172 - INFO - db_cache_manager - 開始設定新的 API 快取 session。 (db_cache_manager.py:34)
+2025-06-01 12:00:11,172 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:46)
+2025-06-01 12:00:11,172 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:46)
+2025-06-01 12:00:11,172 - INFO - db_cache_manager - API 快取資料庫將位於: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:57)
+2025-06-01 12:00:11,172 - INFO - db_cache_manager - API 快取資料庫將位於: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:57)
+2025-06-01 12:00:11,173 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:68)
+2025-06-01 12:00:11,173 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:68)
+2025-06-01 12:00:11,190 - INFO - db_cache_manager - 已成功創建 CachedSession。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:88)
+2025-06-01 12:00:11,190 - INFO - db_cache_manager - 已成功創建 CachedSession。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:88)
+2025-06-01 12:00:11,190 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:00:11,190 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:00:11,190 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:00:11,190 - INFO - test_fetchers - --- 開始執行 Fetcher 整合測試 --- (test_fetchers.py:41)
+2025-06-01 12:00:11,190 - INFO - test_fetchers - --- 開始執行 Fetcher 整合測試 --- (test_fetchers.py:41)
+2025-06-01 12:00:11,190 - INFO - test_fetchers - --- 開始執行 Fetcher 整合測試 --- (test_fetchers.py:41)
+2025-06-01 12:00:11,190 - INFO - test_fetchers - 將使用股票代碼 'SPY' 進行有效性測試。 (test_fetchers.py:51)
+2025-06-01 12:00:11,190 - INFO - test_fetchers - 將使用股票代碼 'SPY' 進行有效性測試。 (test_fetchers.py:51)
+2025-06-01 12:00:11,190 - INFO - test_fetchers - 將使用股票代碼 'SPY' 進行有效性測試。 (test_fetchers.py:51)
+2025-06-01 12:00:11,191 - INFO - test_fetchers - 將使用股票代碼 'NONEXISTENTSTOCKXYZ123' 進行無效性測試。 (test_fetchers.py:52)
+2025-06-01 12:00:11,191 - INFO - test_fetchers - 將使用股票代碼 'NONEXISTENTSTOCKXYZ123' 進行無效性測試。 (test_fetchers.py:52)
+2025-06-01 12:00:11,191 - INFO - test_fetchers - 將使用股票代碼 'NONEXISTENTSTOCKXYZ123' 進行無效性測試。 (test_fetchers.py:52)
+2025-06-01 12:00:11,191 - INFO - test_fetchers - 測試數據區間: 2023-02-01 至 2023-02-10。 (test_fetchers.py:53)
+2025-06-01 12:00:11,191 - INFO - test_fetchers - 測試數據區間: 2023-02-01 至 2023-02-10。 (test_fetchers.py:53)
+2025-06-01 12:00:11,191 - INFO - test_fetchers - 測試數據區間: 2023-02-01 至 2023-02-10。 (test_fetchers.py:53)
+2025-06-01 12:00:11,191 - INFO - test_fetchers -
+--- 測試階段 1: 首次獲取 'SPY' (應從網路) --- (test_fetchers.py:56)
+2025-06-01 12:00:11,191 - INFO - test_fetchers -
+--- 測試階段 1: 首次獲取 'SPY' (應從網路) --- (test_fetchers.py:56)
+2025-06-01 12:00:11,191 - INFO - test_fetchers -
+--- 測試階段 1: 首次獲取 'SPY' (應從網路) --- (test_fetchers.py:56)
+2025-06-01 12:00:11,191 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:35)
+2025-06-01 12:00:11,191 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:35)
+2025-06-01 12:00:11,191 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:35)
+2025-06-01 12:01:14,074 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:01:14,074 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:01:14,074 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:01:14,075 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:01:14,075 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:01:14,075 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:01:14,075 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:01:14,075 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:01:14,075 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:01:14,075 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:01:14,075 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:01:14,077 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:01:14,077 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:01:14,078 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:01:14,078 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:01:14,078 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:01:14,078 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:01:14,078 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:71)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - --- 開始執行 Fetcher 整合測試 --- (test_fetchers.py:41)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - --- 開始執行 Fetcher 整合測試 --- (test_fetchers.py:41)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - --- 開始執行 Fetcher 整合測試 --- (test_fetchers.py:41)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - 將使用股票代碼 'SPY' 進行有效性測試。 (test_fetchers.py:51)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - 將使用股票代碼 'SPY' 進行有效性測試。 (test_fetchers.py:51)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - 將使用股票代碼 'SPY' 進行有效性測試。 (test_fetchers.py:51)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - 將使用股票代碼 'NONEXISTENTSTOCKXYZ123' 進行無效性測試。 (test_fetchers.py:52)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - 將使用股票代碼 'NONEXISTENTSTOCKXYZ123' 進行無效性測試。 (test_fetchers.py:52)
+2025-06-01 12:01:14,078 - INFO - test_fetchers - 將使用股票代碼 'NONEXISTENTSTOCKXYZ123' 進行無效性測試。 (test_fetchers.py:52)
+2025-06-01 12:01:14,079 - INFO - test_fetchers - 測試數據區間: 2023-02-01 至 2023-02-10。 (test_fetchers.py:53)
+2025-06-01 12:01:14,079 - INFO - test_fetchers - 測試數據區間: 2023-02-01 至 2023-02-10。 (test_fetchers.py:53)
+2025-06-01 12:01:14,079 - INFO - test_fetchers - 測試數據區間: 2023-02-01 至 2023-02-10。 (test_fetchers.py:53)
+2025-06-01 12:01:14,079 - INFO - test_fetchers -
+--- 測試階段 1: 首次獲取 'SPY' (應從網路) --- (test_fetchers.py:56)
+2025-06-01 12:01:14,079 - INFO - test_fetchers -
+--- 測試階段 1: 首次獲取 'SPY' (應從網路) --- (test_fetchers.py:56)
+2025-06-01 12:01:14,079 - INFO - test_fetchers -
+--- 測試階段 1: 首次獲取 'SPY' (應從網路) --- (test_fetchers.py:56)
+2025-06-01 12:01:14,079 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,079 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,079 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,460 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:14,460 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:14,460 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:14,460 - INFO - test_fetchers - 首次獲取 'SPY' 耗時: 0.3815 秒。 (test_fetchers.py:60)
+2025-06-01 12:01:14,460 - INFO - test_fetchers - 首次獲取 'SPY' 耗時: 0.3815 秒。 (test_fetchers.py:60)
+2025-06-01 12:01:14,460 - INFO - test_fetchers - 首次獲取 'SPY' 耗時: 0.3815 秒。 (test_fetchers.py:60)
+2025-06-01 12:01:14,472 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (首次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263468  405.608726  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092839  404.309491  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347436  398.801891  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455355  403.843981  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:63)
+2025-06-01 12:01:14,472 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (首次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263468  405.608726  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092839  404.309491  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347436  398.801891  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455355  403.843981  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:63)
+2025-06-01 12:01:14,472 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (首次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263468  405.608726  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092839  404.309491  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347436  398.801891  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455355  403.843981  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:63)
+2025-06-01 12:01:14,472 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:14,472 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:14,472 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:14,472 - INFO - test_fetchers -
+--- 測試階段 2: 再次獲取 'SPY' (應從快取) --- (test_fetchers.py:72)
+2025-06-01 12:01:14,472 - INFO - test_fetchers -
+--- 測試階段 2: 再次獲取 'SPY' (應從快取) --- (test_fetchers.py:72)
+2025-06-01 12:01:14,472 - INFO - test_fetchers -
+--- 測試階段 2: 再次獲取 'SPY' (應從快取) --- (test_fetchers.py:72)
+2025-06-01 12:01:14,472 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,472 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,472 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,484 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:14,484 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:14,484 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:14,484 - INFO - test_fetchers - 再次獲取 'SPY' 耗時: 0.0121 秒。 (test_fetchers.py:76)
+2025-06-01 12:01:14,484 - INFO - test_fetchers - 再次獲取 'SPY' 耗時: 0.0121 秒。 (test_fetchers.py:76)
+2025-06-01 12:01:14,484 - INFO - test_fetchers - 再次獲取 'SPY' 耗時: 0.0121 秒。 (test_fetchers.py:76)
+2025-06-01 12:01:14,494 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (第二次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263468  405.608726  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092839  404.309491  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347436  398.801891  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455355  403.843981  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:79)
+2025-06-01 12:01:14,494 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (第二次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263468  405.608726  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092839  404.309491  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347436  398.801891  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455355  403.843981  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:79)
+2025-06-01 12:01:14,494 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (第二次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263468  405.608726  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092839  404.309491  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347436  398.801891  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455355  403.843981  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:79)
+2025-06-01 12:01:14,495 - INFO - test_fetchers - 數據一致性檢查: 'SPY' 首次和第二次獲取的數據內容相同。 (test_fetchers.py:88)
+2025-06-01 12:01:14,495 - INFO - test_fetchers - 數據一致性檢查: 'SPY' 首次和第二次獲取的數據內容相同。 (test_fetchers.py:88)
+2025-06-01 12:01:14,495 - INFO - test_fetchers - 數據一致性檢查: 'SPY' 首次和第二次獲取的數據內容相同。 (test_fetchers.py:88)
+2025-06-01 12:01:14,495 - INFO - test_fetchers - 效能檢查: 第二次獲取速度 (0.0121s) 明顯快於第一次 (0.3815s)。快取可能已生效。 (test_fetchers.py:93)
+2025-06-01 12:01:14,495 - INFO - test_fetchers - 效能檢查: 第二次獲取速度 (0.0121s) 明顯快於第一次 (0.3815s)。快取可能已生效。 (test_fetchers.py:93)
+2025-06-01 12:01:14,495 - INFO - test_fetchers - 效能檢查: 第二次獲取速度 (0.0121s) 明顯快於第一次 (0.3815s)。快取可能已生效。 (test_fetchers.py:93)
+2025-06-01 12:01:14,495 - INFO - test_fetchers -
+--- 測試階段 3: 獲取無效股票 'NONEXISTENTSTOCKXYZ123' --- (test_fetchers.py:103)
+2025-06-01 12:01:14,495 - INFO - test_fetchers -
+--- 測試階段 3: 獲取無效股票 'NONEXISTENTSTOCKXYZ123' --- (test_fetchers.py:103)
+2025-06-01 12:01:14,495 - INFO - test_fetchers -
+--- 測試階段 3: 獲取無效股票 'NONEXISTENTSTOCKXYZ123' --- (test_fetchers.py:103)
+2025-06-01 12:01:14,495 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,495 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,495 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,808 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:14,808 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:14,808 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:14,810 - INFO - test_fetchers - 獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.3152 秒。 (test_fetchers.py:107)
+2025-06-01 12:01:14,810 - INFO - test_fetchers - 獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.3152 秒。 (test_fetchers.py:107)
+2025-06-01 12:01:14,810 - INFO - test_fetchers - 獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.3152 秒。 (test_fetchers.py:107)
+2025-06-01 12:01:14,811 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 數據獲取按預期返回 None (錯誤處理成功)。 (test_fetchers.py:110)
+2025-06-01 12:01:14,811 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 數據獲取按預期返回 None (錯誤處理成功)。 (test_fetchers.py:110)
+2025-06-01 12:01:14,811 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 數據獲取按預期返回 None (錯誤處理成功)。 (test_fetchers.py:110)
+2025-06-01 12:01:14,811 - INFO - test_fetchers -
+--- 測試階段 4: 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' (檢查快取) --- (test_fetchers.py:118)
+2025-06-01 12:01:14,811 - INFO - test_fetchers -
+--- 測試階段 4: 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' (檢查快取) --- (test_fetchers.py:118)
+2025-06-01 12:01:14,811 - INFO - test_fetchers -
+--- 測試階段 4: 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' (檢查快取) --- (test_fetchers.py:118)
+2025-06-01 12:01:14,811 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,811 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,811 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:14,940 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:14,940 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:14,940 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:14,940 - INFO - test_fetchers - 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.1297 秒。 (test_fetchers.py:122)
+2025-06-01 12:01:14,940 - INFO - test_fetchers - 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.1297 秒。 (test_fetchers.py:122)
+2025-06-01 12:01:14,940 - INFO - test_fetchers - 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.1297 秒。 (test_fetchers.py:122)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 第二次數據獲取也按預期失敗或返回空。 (test_fetchers.py:125)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 第二次數據獲取也按預期失敗或返回空。 (test_fetchers.py:125)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 第二次數據獲取也按預期失敗或返回空。 (test_fetchers.py:125)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 效能檢查 (無效股票): 第二次獲取 (0.1297s) 快於第一次 (0.3152s)。表明錯誤回應可能也被快取。 (test_fetchers.py:127)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 效能檢查 (無效股票): 第二次獲取 (0.1297s) 快於第一次 (0.3152s)。表明錯誤回應可能也被快取。 (test_fetchers.py:127)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 效能檢查 (無效股票): 第二次獲取 (0.1297s) 快於第一次 (0.3152s)。表明錯誤回應可能也被快取。 (test_fetchers.py:127)
+2025-06-01 12:01:14,941 - INFO - test_fetchers -
+--- Fetcher 整合測試結束 --- (test_fetchers.py:133)
+2025-06-01 12:01:14,941 - INFO - test_fetchers -
+--- Fetcher 整合測試結束 --- (test_fetchers.py:133)
+2025-06-01 12:01:14,941 - INFO - test_fetchers -
+--- Fetcher 整合測試結束 --- (test_fetchers.py:133)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:14,941 - INFO - test_fetchers -
+測試完成。請檢查上面的日誌輸出以確認行為是否符合預期。 (test_fetchers.py:138)
+2025-06-01 12:01:14,941 - INFO - test_fetchers -
+測試完成。請檢查上面的日誌輸出以確認行為是否符合預期。 (test_fetchers.py:138)
+2025-06-01 12:01:14,941 - INFO - test_fetchers -
+測試完成。請檢查上面的日誌輸出以確認行為是否符合預期。 (test_fetchers.py:138)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 快取檔案應位於: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (test_fetchers.py:139)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 快取檔案應位於: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (test_fetchers.py:139)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 快取檔案應位於: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (test_fetchers.py:139)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 你可以使用 SQLite 工具 (例如 sqlite3 CLI 或 DB Browser for SQLite) 來檢查快取資料庫的內容。 (test_fetchers.py:140)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 你可以使用 SQLite 工具 (例如 sqlite3 CLI 或 DB Browser for SQLite) 來檢查快取資料庫的內容。 (test_fetchers.py:140)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 你可以使用 SQLite 工具 (例如 sqlite3 CLI 或 DB Browser for SQLite) 來檢查快取資料庫的內容。 (test_fetchers.py:140)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 例如：`sqlite3 MyFinancialSystem/main_data/api_cache/api_cache.sqlite "SELECT * FROM responses;"` (test_fetchers.py:141)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 例如：`sqlite3 MyFinancialSystem/main_data/api_cache/api_cache.sqlite "SELECT * FROM responses;"` (test_fetchers.py:141)
+2025-06-01 12:01:14,941 - INFO - test_fetchers - 例如：`sqlite3 MyFinancialSystem/main_data/api_cache/api_cache.sqlite "SELECT * FROM responses;"` (test_fetchers.py:141)
+2025-06-01 12:01:37,930 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:01:37,930 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:01:37,930 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:01:37,930 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:01:37,930 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:01:37,930 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:01:37,933 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:01:37,933 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:01:37,934 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:01:37,934 - INFO - test_fetchers - --- 開始執行 Fetcher 整合測試 --- (test_fetchers.py:41)
+2025-06-01 12:01:37,934 - INFO - test_fetchers - 將使用股票代碼 'SPY' 進行有效性測試。 (test_fetchers.py:51)
+2025-06-01 12:01:37,934 - INFO - test_fetchers - 將使用股票代碼 'NONEXISTENTSTOCKXYZ123' 進行無效性測試。 (test_fetchers.py:52)
+2025-06-01 12:01:37,934 - INFO - test_fetchers - 測試數據區間: 2023-02-01 至 2023-02-10。 (test_fetchers.py:53)
+2025-06-01 12:01:37,934 - INFO - test_fetchers -
+--- 測試階段 1: 首次獲取 'SPY' (應從網路) --- (test_fetchers.py:56)
+2025-06-01 12:01:37,934 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:38,338 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:38,338 - INFO - test_fetchers - 首次獲取 'SPY' 耗時: 0.4043 秒。 (test_fetchers.py:60)
+2025-06-01 12:01:38,350 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (首次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263498  405.608757  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092779  404.309429  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347466  398.801921  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455415  403.844043  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:63)
+2025-06-01 12:01:38,350 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:38,350 - INFO - test_fetchers -
+--- 測試階段 2: 再次獲取 'SPY' (應從快取) --- (test_fetchers.py:72)
+2025-06-01 12:01:38,350 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:38,362 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:01:38,362 - INFO - test_fetchers - 再次獲取 'SPY' 耗時: 0.0120 秒。 (test_fetchers.py:76)
+2025-06-01 12:01:38,372 - INFO - test_fetchers - 成功獲取 'SPY' 的數據 (第二次):
+                                 Open        High  ...  Stock Splits  Capital Gains
+Date                                               ...
+2023-02-01 00:00:00-05:00  392.906546  401.109695  ...           0.0            0.0
+2023-02-02 00:00:00-05:00  402.263498  405.608757  ...           0.0            0.0
+2023-02-03 00:00:00-05:00  399.092779  404.309429  ...           0.0            0.0
+2023-02-06 00:00:00-05:00  397.347466  398.801921  ...           0.0            0.0
+2023-02-07 00:00:00-05:00  396.455415  403.844043  ...           0.0            0.0
+
+[5 rows x 8 columns] (test_fetchers.py:79)
+2025-06-01 12:01:38,372 - INFO - test_fetchers - 數據一致性檢查: 'SPY' 首次和第二次獲取的數據內容相同。 (test_fetchers.py:88)
+2025-06-01 12:01:38,373 - INFO - test_fetchers - 效能檢查: 第二次獲取速度 (0.0120s) 明顯快於第一次 (0.4043s)。快取可能已生效。 (test_fetchers.py:93)
+2025-06-01 12:01:38,373 - INFO - test_fetchers -
+--- 測試階段 3: 獲取無效股票 'NONEXISTENTSTOCKXYZ123' --- (test_fetchers.py:103)
+2025-06-01 12:01:38,373 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:38,929 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:38,930 - INFO - test_fetchers - 獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.5576 秒。 (test_fetchers.py:107)
+2025-06-01 12:01:38,930 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 數據獲取按預期返回 None (錯誤處理成功)。 (test_fetchers.py:110)
+2025-06-01 12:01:38,930 - INFO - test_fetchers -
+--- 測試階段 4: 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' (檢查快取) --- (test_fetchers.py:118)
+2025-06-01 12:01:38,930 - INFO - yfinance_fetcher - 開始為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取從 2023-02-01 到 2023-02-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:01:39,124 - ERROR - yfinance_fetcher - 為股票代碼 'NONEXISTENTSTOCKXYZ123' 獲取數據時發生錯誤: HTTP Error 404:  (yfinance_fetcher.py:52)
+Traceback (most recent call last):
+  File "/app/src/data_fetchers/yfinance_fetcher.py", line 37, in fetch_ohlcv
+    history_data = ticker_obj.history(start=start_date, end=end_date)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/utils.py", line 99, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 96, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 102, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 127, in _get_ticker_tz
+    if k in self.info:
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/ticker.py", line 159, in info
+    return self.get_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/base.py", line 293, in get_info
+    data = self._quote.info
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 511, in info
+    self._fetch_info()
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 610, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/scrapers/quote.py", line 590, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "/home/jules/.local/lib/python3.10/site-packages/yfinance/data.py", line 425, in get_raw_json
+    response.raise_for_status()
+  File "/home/jules/.local/lib/python3.10/site-packages/curl_cffi/requests/models.py", line 167, in raise_for_status
+    raise HTTPError(f"HTTP Error {self.status_code}: {self.reason}", 0, self)
+curl_cffi.requests.exceptions.HTTPError: HTTP Error 404:
+2025-06-01 12:01:39,124 - INFO - test_fetchers - 再次獲取無效股票 'NONEXISTENTSTOCKXYZ123' 耗時: 0.1937 秒。 (test_fetchers.py:122)
+2025-06-01 12:01:39,124 - INFO - test_fetchers - 'NONEXISTENTSTOCKXYZ123' 第二次數據獲取也按預期失敗或返回空。 (test_fetchers.py:125)
+2025-06-01 12:01:39,124 - INFO - test_fetchers - 效能檢查 (無效股票): 第二次獲取 (0.1937s) 快於第一次 (0.5576s)。表明錯誤回應可能也被快取。 (test_fetchers.py:127)
+2025-06-01 12:01:39,124 - INFO - test_fetchers -
+--- Fetcher 整合測試結束 --- (test_fetchers.py:133)
+2025-06-01 12:01:39,124 - INFO - test_fetchers - 快取資料庫檔案 'MyFinancialSystem/main_data/api_cache/api_cache.sqlite' 存在。檔案大小: 24576 bytes. (test_fetchers.py:28)
+2025-06-01 12:01:39,125 - INFO - test_fetchers -
+測試完成。請檢查上面的日誌輸出以確認行為是否符合預期。 (test_fetchers.py:138)
+2025-06-01 12:01:39,125 - INFO - test_fetchers - 快取檔案應位於: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (test_fetchers.py:139)
+2025-06-01 12:01:39,125 - INFO - test_fetchers - 你可以使用 SQLite 工具 (例如 sqlite3 CLI 或 DB Browser for SQLite) 來檢查快取資料庫的內容。 (test_fetchers.py:140)
+2025-06-01 12:01:39,125 - INFO - test_fetchers - 例如：`sqlite3 MyFinancialSystem/main_data/api_cache/api_cache.sqlite "SELECT * FROM responses;"` (test_fetchers.py:141)
+2025-06-01 12:03:43,871 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:03:43,871 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:03:43,871 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:03:43,871 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:03:43,871 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:03:43,871 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:03:43,897 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:03:43,898 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:03:43,906 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:03:43,906 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:03:43,906 - INFO - test_processor - --- 開始執行 Processor 整合測試 --- (test_processor.py:42)
+2025-06-01 12:03:43,906 - DEBUG - db_cache_manager - 全域快取已經設定。 (db_cache_manager.py:28)
+2025-06-01 12:03:43,906 - INFO - test_processor - 全域 API 快取已啟用。 (test_processor.py:46)
+2025-06-01 12:03:43,906 - INFO - test_processor -
+--- 測試案例 1: 使用 AAPL 的真實數據 --- (test_processor.py:49)
+2025-06-01 12:03:43,906 - INFO - test_processor - [AAPL] 步驟 1: 獲取原始 OHLCV 數據從 2023-03-01 到 2023-03-10。 (test_processor.py:55)
+2025-06-01 12:03:43,906 - INFO - yfinance_fetcher - 開始為股票代碼 'AAPL' 獲取從 2023-03-01 到 2023-03-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:03:44,303 - INFO - yfinance_fetcher - 成功獲取股票代碼 'AAPL' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:03:44,303 - INFO - test_processor - [AAPL] 原始數據獲取成功，形狀: (7, 7) (test_processor.py:61)
+2025-06-01 12:03:44,315 - DEBUG - test_processor - [AAPL] 原始數據預覽:
+                                 Open        High  ...  Dividends  Stock Splits
+Date                                               ...
+2023-03-01 00:00:00-05:00  145.173695  145.569177  ...        0.0           0.0
+2023-03-02 00:00:00-05:00  142.751329  145.055047  ...        0.0           0.0
+2023-03-03 00:00:00-05:00  146.370032  149.405409  ...        0.0           0.0
+2023-03-06 00:00:00-05:00  152.055154  154.536849  ...        0.0           0.0
+2023-03-07 00:00:00-05:00  151.966164  152.292443  ...        0.0           0.0
+
+[5 rows x 7 columns] (test_processor.py:62)
+2025-06-01 12:03:44,315 - INFO - test_processor - [AAPL] 步驟 2: 處理 OHLCV 數據。 (test_processor.py:65)
+2025-06-01 12:03:44,315 - INFO - data_processor - [AAPL] 開始處理 OHLCV 數據。原始數據形狀: (7, 7) (data_processor.py:36)
+2025-06-01 12:03:44,318 - DEBUG - data_processor - [AAPL] 已增加 'Symbol' 欄位。 (data_processor.py:99)
+2025-06-01 12:03:44,319 - INFO - data_processor - [AAPL] 數據處理完成。處理後數據形狀: (7, 8) (data_processor.py:101)
+2025-06-01 12:03:44,319 - INFO - test_processor - [AAPL] 數據處理成功，處理後形狀: (7, 8) (test_processor.py:71)
+2025-06-01 12:03:44,320 - INFO - test_processor - [AAPL] 檢查處理後數據是否有 NaN:
+Open            0
+High            0
+Low             0
+Close           0
+Volume          0
+Dividends       0
+Stock_Splits    0
+Symbol          0
+dtype: int64 (test_processor.py:72)
+2025-06-01 12:03:44,330 - DEBUG - test_processor - [AAPL] 處理後數據預覽:
+                                 Open        High  ...  Stock_Splits  Symbol
+Date                                               ...
+2023-03-01 00:00:00-05:00  145.173695  145.569177  ...           0.0    AAPL
+2023-03-02 00:00:00-05:00  142.751329  145.055047  ...           0.0    AAPL
+2023-03-03 00:00:00-05:00  146.370032  149.405409  ...           0.0    AAPL
+2023-03-06 00:00:00-05:00  152.055154  154.536849  ...           0.0    AAPL
+2023-03-07 00:00:00-05:00  151.966164  152.292443  ...           0.0    AAPL
+
+[5 rows x 8 columns] (test_processor.py:76)
+2025-06-01 12:03:44,330 - INFO - test_processor - [AAPL] 步驟 3: 儲存處理後的數據到 Parquet。 (test_processor.py:79)
+2025-06-01 12:03:44,331 - DEBUG - data_processor - [AAPL] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:142)
+2025-06-01 12:03:44,331 - INFO - data_processor - [AAPL] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/AAPL_ohlcv.parquet (data_processor.py:153)
+2025-06-01 12:03:44,357 - INFO - data_processor - [AAPL] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/AAPL_ohlcv.parquet (data_processor.py:157)
+2025-06-01 12:03:44,357 - INFO - test_processor - [AAPL] 數據成功儲存到: MyFinancialSystem/main_data/market_data/us_stocks/AAPL_ohlcv.parquet (test_processor.py:84)
+2025-06-01 12:03:44,357 - INFO - test_processor - [AAPL] 步驟 4: 讀回 Parquet 檔案並驗證。 (test_processor.py:87)
+2025-06-01 12:03:44,378 - INFO - test_processor - [AAPL] 從 Parquet 檔案讀回的數據形狀: (7, 8) (test_processor.py:90)
+2025-06-01 12:03:44,380 - INFO - test_processor - [AAPL] 成功驗證：讀回的數據與處理後的數據一致。 (test_processor.py:95)
+2025-06-01 12:03:44,380 - INFO - test_processor -
+--- 測試案例 2: 使用模擬數據測試清洗邏輯 --- (test_processor.py:107)
+2025-06-01 12:03:44,390 - INFO - test_processor - [MOCKDATA] 創建的模擬 DataFrame (含缺失值):
+             Open  High    Low  Close  Volume
+2023-01-01    NaN   100   98.0   99.0  1000.0
+2023-01-02  101.0   102  100.0  101.0     0.0
+2023-01-03  102.0   103  101.0    NaN   500.0
+2023-01-04  103.0   104    NaN  103.0  2000.0
+2023-01-05  104.0   105  103.0  104.0     NaN
+2023-01-06  105.0   106  104.0  105.0  3000.0 (test_processor.py:35)
+2025-06-01 12:03:44,390 - INFO - test_processor - [MOCKDATA] 步驟 1: 處理模擬的 OHLCV 數據。 (test_processor.py:112)
+2025-06-01 12:03:44,390 - INFO - data_processor - [MOCKDATA] 開始處理 OHLCV 數據。原始數據形狀: (6, 5) (data_processor.py:36)
+2025-06-01 12:03:44,392 - INFO - data_processor - [MOCKDATA] 移除了 2 行，因為其 'Volume' 為 NaN 或 0。 (data_processor.py:49)
+2025-06-01 12:03:44,393 - INFO - data_processor - [MOCKDATA] 對欄位 'Open' 使用 ffill 填充 NaN... (data_processor.py:62)
+2025-06-01 12:03:44,394 - INFO - data_processor - [MOCKDATA] 對欄位 'Open' 使用 bfill 填充剩餘 NaN (通常是開頭部分)... (data_processor.py:65)
+2025-06-01 12:03:44,395 - INFO - data_processor - [MOCKDATA] 對欄位 'Low' 使用 ffill 填充 NaN... (data_processor.py:62)
+2025-06-01 12:03:44,395 - INFO - data_processor - [MOCKDATA] 對欄位 'Close' 使用 ffill 填充 NaN... (data_processor.py:62)
+2025-06-01 12:03:44,397 - DEBUG - data_processor - [MOCKDATA] 已增加 'Symbol' 欄位。 (data_processor.py:99)
+2025-06-01 12:03:44,397 - INFO - data_processor - [MOCKDATA] 數據處理完成。處理後數據形狀: (4, 6) (data_processor.py:101)
+2025-06-01 12:03:44,397 - INFO - test_processor - [MOCKDATA] 模擬數據處理成功，處理後形狀: (4, 6) (test_processor.py:127)
+2025-06-01 12:03:44,398 - INFO - test_processor - [MOCKDATA] 檢查處理後數據是否有 NaN:
+Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+Symbol    0
+dtype: int64 (test_processor.py:128)
+2025-06-01 12:03:44,399 - INFO - test_processor - [MOCKDATA] 模擬數據處理邏輯符合預期。 (test_processor.py:144)
+2025-06-01 12:03:44,406 - DEBUG - test_processor - [MOCKDATA] 處理後模擬數據預覽:
+             Open  High    Low  Close  Volume    Symbol
+2023-01-01  102.0   100   98.0   99.0  1000.0  MOCKDATA
+2023-01-03  102.0   103  101.0   99.0   500.0  MOCKDATA
+2023-01-04  103.0   104  101.0  103.0  2000.0  MOCKDATA
+2023-01-06  105.0   106  104.0  105.0  3000.0  MOCKDATA (test_processor.py:145)
+2025-06-01 12:03:44,406 - INFO - test_processor - [MOCKDATA] 步驟 2: 儲存處理後的模擬數據到 Parquet。 (test_processor.py:148)
+2025-06-01 12:03:44,406 - DEBUG - data_processor - [MOCKDATA] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:142)
+2025-06-01 12:03:44,406 - INFO - data_processor - [MOCKDATA] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/MOCKDATA_ohlcv.parquet (data_processor.py:153)
+2025-06-01 12:03:44,408 - INFO - data_processor - [MOCKDATA] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/MOCKDATA_ohlcv.parquet (data_processor.py:157)
+2025-06-01 12:03:44,409 - INFO - test_processor - [MOCKDATA] 模擬數據成功儲存到: MyFinancialSystem/main_data/market_data/us_stocks/MOCKDATA_ohlcv.parquet (test_processor.py:152)
+2025-06-01 12:03:44,413 - INFO - test_processor - [MOCKDATA] 成功驗證：讀回的模擬數據與處理後的數據一致。 (test_processor.py:157)
+2025-06-01 12:03:44,413 - INFO - test_processor -
+--- Processor 整合測試結束 --- (test_processor.py:166)
+2025-06-01 12:03:44,413 - INFO - test_processor -
+測試完成。請檢查上面的日誌輸出以確認行為是否符合預期。 (test_processor.py:170)
+2025-06-01 12:03:44,413 - INFO - test_processor - 儲存的 Parquet 檔案應位於 'MyFinancialSystem/main_data/market_data/' 下的相應子目錄中。 (test_processor.py:172)
+2025-06-01 12:04:10,741 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:04:10,741 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:04:10,741 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:04:10,741 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:04:10,741 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:04:10,741 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:04:10,743 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:04:10,743 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:04:10,746 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:04:10,746 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:04:10,746 - INFO - test_processor - --- 開始執行 Processor 整合測試 --- (test_processor.py:42)
+2025-06-01 12:04:10,746 - DEBUG - db_cache_manager - 全域快取已經設定。 (db_cache_manager.py:28)
+2025-06-01 12:04:10,746 - INFO - test_processor - 全域 API 快取已啟用。 (test_processor.py:46)
+2025-06-01 12:04:10,746 - INFO - test_processor -
+--- 測試案例 1: 使用 AAPL 的真實數據 --- (test_processor.py:49)
+2025-06-01 12:04:10,746 - INFO - test_processor - [AAPL] 步驟 1: 獲取原始 OHLCV 數據從 2023-03-01 到 2023-03-10。 (test_processor.py:55)
+2025-06-01 12:04:10,746 - INFO - yfinance_fetcher - 開始為股票代碼 'AAPL' 獲取從 2023-03-01 到 2023-03-10 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:04:11,000 - INFO - yfinance_fetcher - 成功獲取股票代碼 'AAPL' 的 7 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:04:11,000 - INFO - test_processor - [AAPL] 原始數據獲取成功，形狀: (7, 7) (test_processor.py:61)
+2025-06-01 12:04:11,011 - DEBUG - test_processor - [AAPL] 原始數據預覽:
+                                 Open        High  ...  Dividends  Stock Splits
+Date                                               ...
+2023-03-01 00:00:00-05:00  145.173695  145.569177  ...        0.0           0.0
+2023-03-02 00:00:00-05:00  142.751314  145.055032  ...        0.0           0.0
+2023-03-03 00:00:00-05:00  146.370017  149.405393  ...        0.0           0.0
+2023-03-06 00:00:00-05:00  152.055169  154.536865  ...        0.0           0.0
+2023-03-07 00:00:00-05:00  151.966179  152.292458  ...        0.0           0.0
+
+[5 rows x 7 columns] (test_processor.py:62)
+2025-06-01 12:04:11,011 - INFO - test_processor - [AAPL] 步驟 2: 處理 OHLCV 數據。 (test_processor.py:65)
+2025-06-01 12:04:11,011 - INFO - data_processor - [AAPL] 開始處理 OHLCV 數據。原始數據形狀: (7, 7) (data_processor.py:36)
+2025-06-01 12:04:11,015 - DEBUG - data_processor - [AAPL] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:04:11,015 - INFO - data_processor - [AAPL] 數據處理完成。處理後數據形狀: (7, 8) (data_processor.py:103)
+2025-06-01 12:04:11,015 - INFO - test_processor - [AAPL] 數據處理成功，處理後形狀: (7, 8) (test_processor.py:71)
+2025-06-01 12:04:11,016 - INFO - test_processor - [AAPL] 檢查處理後數據是否有 NaN:
+Open            0
+High            0
+Low             0
+Close           0
+Volume          0
+Dividends       0
+Stock_Splits    0
+Symbol          0
+dtype: int64 (test_processor.py:72)
+2025-06-01 12:04:11,026 - DEBUG - test_processor - [AAPL] 處理後數據預覽:
+                                 Open        High  ...  Stock_Splits  Symbol
+Date                                               ...
+2023-03-01 00:00:00-05:00  145.173695  145.569177  ...           0.0    AAPL
+2023-03-02 00:00:00-05:00  142.751314  145.055032  ...           0.0    AAPL
+2023-03-03 00:00:00-05:00  146.370017  149.405393  ...           0.0    AAPL
+2023-03-06 00:00:00-05:00  152.055169  154.536865  ...           0.0    AAPL
+2023-03-07 00:00:00-05:00  151.966179  152.292458  ...           0.0    AAPL
+
+[5 rows x 8 columns] (test_processor.py:76)
+2025-06-01 12:04:11,026 - INFO - test_processor - [AAPL] 步驟 3: 儲存處理後的數據到 Parquet。 (test_processor.py:79)
+2025-06-01 12:04:11,027 - DEBUG - data_processor - [AAPL] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:04:11,027 - INFO - data_processor - [AAPL] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/AAPL_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:04:11,047 - INFO - data_processor - [AAPL] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/AAPL_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:04:11,047 - INFO - test_processor - [AAPL] 數據成功儲存到: MyFinancialSystem/main_data/market_data/us_stocks/AAPL_ohlcv.parquet (test_processor.py:84)
+2025-06-01 12:04:11,047 - INFO - test_processor - [AAPL] 步驟 4: 讀回 Parquet 檔案並驗證。 (test_processor.py:87)
+2025-06-01 12:04:11,066 - INFO - test_processor - [AAPL] 從 Parquet 檔案讀回的數據形狀: (7, 8) (test_processor.py:90)
+2025-06-01 12:04:11,068 - INFO - test_processor - [AAPL] 成功驗證：讀回的數據與處理後的數據一致。 (test_processor.py:95)
+2025-06-01 12:04:11,068 - INFO - test_processor -
+--- 測試案例 2: 使用模擬數據測試清洗邏輯 --- (test_processor.py:107)
+2025-06-01 12:04:11,078 - INFO - test_processor - [MOCKDATA] 創建的模擬 DataFrame (含缺失值):
+             Open  High    Low  Close  Volume
+2023-01-01    NaN   100   98.0   99.0  1000.0
+2023-01-02  101.0   102  100.0  101.0     0.0
+2023-01-03  102.0   103  101.0    NaN   500.0
+2023-01-04  103.0   104    NaN  103.0  2000.0
+2023-01-05  104.0   105  103.0  104.0     NaN
+2023-01-06  105.0   106  104.0  105.0  3000.0 (test_processor.py:35)
+2025-06-01 12:04:11,078 - INFO - test_processor - [MOCKDATA] 步驟 1: 處理模擬的 OHLCV 數據。 (test_processor.py:112)
+2025-06-01 12:04:11,078 - INFO - data_processor - [MOCKDATA] 開始處理 OHLCV 數據。原始數據形狀: (6, 5) (data_processor.py:36)
+2025-06-01 12:04:11,080 - INFO - data_processor - [MOCKDATA] 移除了 2 行，因為其 'Volume' 為 NaN 或 0。 (data_processor.py:49)
+2025-06-01 12:04:11,080 - INFO - data_processor - [MOCKDATA] 對欄位 'Open' 使用 ffill 填充 NaN... (data_processor.py:62)
+2025-06-01 12:04:11,081 - INFO - data_processor - [MOCKDATA] 對欄位 'Open' 使用 bfill 填充剩餘 NaN (通常是開頭部分)... (data_processor.py:65)
+2025-06-01 12:04:11,082 - INFO - data_processor - [MOCKDATA] 對欄位 'Low' 使用 ffill 填充 NaN... (data_processor.py:62)
+2025-06-01 12:04:11,082 - INFO - data_processor - [MOCKDATA] 對欄位 'Close' 使用 ffill 填充 NaN... (data_processor.py:62)
+2025-06-01 12:04:11,084 - DEBUG - data_processor - [MOCKDATA] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:04:11,084 - INFO - data_processor - [MOCKDATA] 數據處理完成。處理後數據形狀: (4, 6) (data_processor.py:103)
+2025-06-01 12:04:11,084 - INFO - test_processor - [MOCKDATA] 模擬數據處理成功，處理後形狀: (4, 6) (test_processor.py:127)
+2025-06-01 12:04:11,085 - INFO - test_processor - [MOCKDATA] 檢查處理後數據是否有 NaN:
+Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+Symbol    0
+dtype: int64 (test_processor.py:128)
+2025-06-01 12:04:11,086 - INFO - test_processor - [MOCKDATA] 模擬數據處理邏輯符合預期。 (test_processor.py:144)
+2025-06-01 12:04:11,094 - DEBUG - test_processor - [MOCKDATA] 處理後模擬數據預覽:
+             Open  High    Low  Close  Volume    Symbol
+2023-01-01  102.0   100   98.0   99.0  1000.0  MOCKDATA
+2023-01-03  102.0   103  101.0   99.0   500.0  MOCKDATA
+2023-01-04  103.0   104  101.0  103.0  2000.0  MOCKDATA
+2023-01-06  105.0   106  104.0  105.0  3000.0  MOCKDATA (test_processor.py:145)
+2025-06-01 12:04:11,094 - INFO - test_processor - [MOCKDATA] 步驟 2: 儲存處理後的模擬數據到 Parquet。 (test_processor.py:148)
+2025-06-01 12:04:11,094 - DEBUG - data_processor - [MOCKDATA] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:04:11,094 - INFO - data_processor - [MOCKDATA] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/MOCKDATA_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:04:11,097 - INFO - data_processor - [MOCKDATA] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/MOCKDATA_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:04:11,097 - INFO - test_processor - [MOCKDATA] 模擬數據成功儲存到: MyFinancialSystem/main_data/market_data/us_stocks/MOCKDATA_ohlcv.parquet (test_processor.py:152)
+2025-06-01 12:04:11,101 - INFO - test_processor - [MOCKDATA] 成功驗證：讀回的模擬數據與處理後的數據一致。 (test_processor.py:157)
+2025-06-01 12:04:11,101 - INFO - test_processor -
+--- Processor 整合測試結束 --- (test_processor.py:166)
+2025-06-01 12:04:11,101 - INFO - test_processor -
+測試完成。請檢查上面的日誌輸出以確認行為是否符合預期。 (test_processor.py:170)
+2025-06-01 12:04:11,101 - INFO - test_processor - 儲存的 Parquet 檔案應位於 'MyFinancialSystem/main_data/market_data/' 下的相應子目錄中。 (test_processor.py:172)
+2025-06-01 12:06:05,046 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:06:05,047 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:06:05,047 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:06:05,047 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:06:05,047 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:06:05,047 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:06:05,048 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:06:05,049 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:06:05,052 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:06:33,661 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:06:33,661 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:06:33,661 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:06:33,661 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:06:33,661 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:06:33,661 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:06:33,662 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:06:33,663 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:06:33,666 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:07:45,596 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:07:45,596 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:07:45,596 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:07:45,596 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:07:45,596 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:07:45,596 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:07:45,598 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:07:45,598 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:07:45,601 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:08:27,836 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:08:27,836 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:08:27,836 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:08:27,836 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:08:27,836 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:08:27,837 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:08:27,839 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:08:27,840 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:08:27,848 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:08:27,850 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:08:27,850 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:08:27,850 - INFO - test_indicators - --- 開始執行 Indicator Engine 整合測試 --- (test_indicators.py:28)
+2025-06-01 12:08:27,851 - DEBUG - db_cache_manager - 全域快取已經設定。 (db_cache_manager.py:28)
+2025-06-01 12:08:27,851 - INFO - test_indicators - 全域 API 快取已啟用。 (test_indicators.py:32)
+2025-06-01 12:08:27,851 - INFO - test_indicators - 將使用股票代碼 'AAPL' 進行指標計算測試，數據期間: 2023-01-01 至 2023-12-31。 (test_indicators.py:47)
+2025-06-01 12:08:27,851 - INFO - test_indicators - [AAPL] 步驟 1: 獲取原始 OHLCV 數據。 (test_indicators.py:50)
+2025-06-01 12:08:27,851 - INFO - yfinance_fetcher - 開始為股票代碼 'AAPL' 獲取從 2023-01-01 到 2023-12-31 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:08:28,246 - INFO - yfinance_fetcher - 成功獲取股票代碼 'AAPL' 的 250 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:08:28,247 - INFO - test_indicators - [AAPL] 原始數據獲取成功，形狀: (250, 7) (test_indicators.py:57)
+2025-06-01 12:08:28,247 - INFO - test_indicators - [AAPL] 步驟 2: 處理 OHLCV 數據。 (test_indicators.py:60)
+2025-06-01 12:08:28,247 - INFO - data_processor - [AAPL] 開始處理 OHLCV 數據。原始數據形狀: (250, 7) (data_processor.py:36)
+2025-06-01 12:08:28,251 - DEBUG - data_processor - [AAPL] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:08:28,251 - INFO - data_processor - [AAPL] 數據處理完成。處理後數據形狀: (250, 8) (data_processor.py:103)
+2025-06-01 12:08:28,251 - INFO - test_indicators - [AAPL] 數據處理成功，處理後形狀: (250, 8) (test_indicators.py:67)
+2025-06-01 12:08:28,251 - INFO - test_indicators - [AAPL] 步驟 3: 計算技術指標。 (test_indicators.py:71)
+2025-06-01 12:08:28,251 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (250, 8) (indicator_engine.py:41)
+2025-06-01 12:08:28,251 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:08:28,253 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:08:28,256 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:08:28,257 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:08:28,257 - DEBUG - indicator_engine - 計算後數據形狀: (250, 12) (indicator_engine.py:79)
+2025-06-01 12:08:28,257 - INFO - test_indicators - [AAPL] 技術指標計算成功，計算後形狀: (250, 12) (test_indicators.py:80)
+2025-06-01 12:08:28,257 - INFO - test_indicators - [AAPL] DataFrame 的最後幾行 (包含指標): (test_indicators.py:88)
+2025-06-01 12:08:28,274 - ERROR - test_indicators - [AAPL] 以下預期的指標欄位未找到: obv, mfi_14 (test_indicators.py:119)
+2025-06-01 12:08:28,274 - DEBUG - test_indicators - [AAPL] DataFrame 實際欄位: ['Open', 'High', 'Low', 'Close', 'Volume', 'Dividends', 'Stock_Splits', 'Symbol', 'SMA_20', 'SMA_50', 'SMA_200', 'RSI_14'] (test_indicators.py:120)
+2025-06-01 12:08:28,275 - INFO - test_indicators - [AAPL] RSI_14 指標數值在預期範圍 (0-100) 內。 (test_indicators.py:127)
+2025-06-01 12:08:28,275 - INFO - test_indicators -
+--- Indicator Engine 整合測試結束 --- (test_indicators.py:136)
+2025-06-01 12:08:28,275 - INFO - test_indicators -
+測試完成。請檢查上面的日誌輸出以確認指標計算是否符合預期。 (test_indicators.py:140)
+2025-06-01 12:08:28,275 - INFO - test_indicators - 注意：由於窗口期的原因，指標欄位的開頭部分為 NaN 是正常的。 (test_indicators.py:141)
+2025-06-01 12:11:06,820 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:11:06,821 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:11:06,821 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:11:06,821 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:11:06,821 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:11:06,821 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:11:06,822 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:11:06,823 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:11:06,826 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:11:06,827 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:11:06,830 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:11:06,830 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:11:06,830 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:11:06,830 - INFO - test_screener - --- 開始執行 Stock Screener 測試腳本 --- (test_screener.py:25)
+2025-06-01 12:11:06,830 - INFO - test_screener - 步驟 1: 設定全域 API 快取... (test_screener.py:28)
+2025-06-01 12:11:06,830 - DEBUG - db_cache_manager - 全域快取已經設定。 (db_cache_manager.py:28)
+2025-06-01 12:11:06,830 - INFO - test_screener - 全域 API 快取已啟用。 (test_screener.py:30)
+2025-06-01 12:11:06,830 - INFO - test_screener - 步驟 2: 調用 stock_screener.screen_stocks()... (test_screener.py:33)
+2025-06-01 12:11:06,830 - INFO - stock_screener - --- 開始執行股票篩選與風險評估 --- (stock_screener.py:81)
+2025-06-01 12:11:06,830 - INFO - stock_screener - 待篩選股票池: AAPL, GOOG, 2454.TW, 0050.TW, SPY, TSLA, MSFT, 2330.TW (stock_screener.py:91)
+2025-06-01 12:11:06,831 - INFO - stock_screener - ---正在處理股票: AAPL --- (stock_screener.py:106)
+2025-06-01 12:11:06,831 - INFO - stock_screener - [AAPL] 找到已儲存的 Parquet 檔案，嘗試加載: MyFinancialSystem/main_data/market_data/us_stocks/AAPL_ohlcv.parquet (stock_screener.py:41)
+2025-06-01 12:11:06,872 - INFO - stock_screener - [AAPL] 從 Parquet 檔案成功加載數據，形狀: (7, 8) (stock_screener.py:45)
+2025-06-01 12:11:06,872 - DEBUG - stock_screener - [AAPL] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:06,873 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (7, 8) (indicator_engine.py:41)
+2025-06-01 12:11:06,873 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:06,875 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:06,878 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:06,879 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:06,879 - DEBUG - indicator_engine - 計算後數據形狀: (7, 12) (indicator_engine.py:79)
+2025-06-01 12:11:06,879 - INFO - stock_screener - [AAPL] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:06,879 - DEBUG - stock_screener - [AAPL] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:06,879 - WARNING - risk_models - 數據點 (7) 少於波動率計算週期 (20)，無法計算。 (risk_models.py:52)
+2025-06-01 12:11:06,882 - DEBUG - stock_screener - [AAPL] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:06,882 - DEBUG - risk_models - [AAPL] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:06,882 - DEBUG - risk_models - [AAPL] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:06,882 - DEBUG - risk_models - [AAPL] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:06,882 - INFO - stock_screener - [AAPL] 未觸發顯著風險指標。 (stock_screener.py:154)
+2025-06-01 12:11:06,882 - INFO - stock_screener - ---正在處理股票: GOOG --- (stock_screener.py:106)
+2025-06-01 12:11:06,882 - INFO - stock_screener - [GOOG] 未找到有效的本地數據或加載失敗，開始從 API 獲取數據。 (stock_screener.py:53)
+2025-06-01 12:11:06,882 - INFO - yfinance_fetcher - 開始為股票代碼 'GOOG' 獲取從 2024-03-03 到 2025-06-01 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:11:07,312 - INFO - yfinance_fetcher - 成功獲取股票代碼 'GOOG' 的 312 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:11:07,312 - INFO - data_processor - [GOOG] 開始處理 OHLCV 數據。原始數據形狀: (312, 7) (data_processor.py:36)
+2025-06-01 12:11:07,316 - DEBUG - data_processor - [GOOG] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:11:07,316 - INFO - data_processor - [GOOG] 數據處理完成。處理後數據形狀: (312, 8) (data_processor.py:103)
+2025-06-01 12:11:07,316 - DEBUG - data_processor - [GOOG] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:11:07,316 - INFO - data_processor - [GOOG] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/GOOG_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:11:07,321 - INFO - data_processor - [GOOG] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/GOOG_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:11:07,321 - INFO - stock_screener - [GOOG] 新獲取的數據已處理並儲存到: MyFinancialSystem/main_data/market_data/us_stocks/GOOG_ohlcv.parquet (stock_screener.py:67)
+2025-06-01 12:11:07,321 - DEBUG - stock_screener - [GOOG] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:07,321 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (312, 8) (indicator_engine.py:41)
+2025-06-01 12:11:07,321 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:07,323 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:07,325 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:07,326 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:07,326 - DEBUG - indicator_engine - 計算後數據形狀: (312, 12) (indicator_engine.py:79)
+2025-06-01 12:11:07,326 - INFO - stock_screener - [GOOG] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:07,326 - DEBUG - stock_screener - [GOOG] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:07,329 - DEBUG - stock_screener - [GOOG] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:07,329 - DEBUG - risk_models - [GOOG] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:07,329 - DEBUG - risk_models - [GOOG] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:07,329 - DEBUG - risk_models - [GOOG] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:07,329 - INFO - stock_screener - [GOOG] 未觸發顯著風險指標。 (stock_screener.py:154)
+2025-06-01 12:11:07,329 - INFO - stock_screener - ---正在處理股票: 2454.TW --- (stock_screener.py:106)
+2025-06-01 12:11:07,329 - INFO - stock_screener - [2454.TW] 未找到有效的本地數據或加載失敗，開始從 API 獲取數據。 (stock_screener.py:53)
+2025-06-01 12:11:07,329 - INFO - yfinance_fetcher - 開始為股票代碼 '2454.TW' 獲取從 2024-03-03 到 2025-06-01 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:11:07,665 - INFO - yfinance_fetcher - 成功獲取股票代碼 '2454.TW' 的 301 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:11:07,665 - INFO - data_processor - [2454.TW] 開始處理 OHLCV 數據。原始數據形狀: (301, 7) (data_processor.py:36)
+2025-06-01 12:11:07,669 - DEBUG - data_processor - [2454.TW] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:11:07,669 - INFO - data_processor - [2454.TW] 數據處理完成。處理後數據形狀: (301, 8) (data_processor.py:103)
+2025-06-01 12:11:07,669 - DEBUG - data_processor - [2454.TW] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/tw_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:11:07,669 - INFO - data_processor - [2454.TW] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/tw_stocks/2454_TW_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:11:07,672 - INFO - data_processor - [2454.TW] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/tw_stocks/2454_TW_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:11:07,673 - INFO - stock_screener - [2454.TW] 新獲取的數據已處理並儲存到: MyFinancialSystem/main_data/market_data/tw_stocks/2454_TW_ohlcv.parquet (stock_screener.py:67)
+2025-06-01 12:11:07,673 - DEBUG - stock_screener - [2454.TW] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:07,673 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (301, 8) (indicator_engine.py:41)
+2025-06-01 12:11:07,673 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:07,674 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:07,677 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:07,677 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:07,677 - DEBUG - indicator_engine - 計算後數據形狀: (301, 12) (indicator_engine.py:79)
+2025-06-01 12:11:07,677 - INFO - stock_screener - [2454.TW] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:07,677 - DEBUG - stock_screener - [2454.TW] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:07,680 - DEBUG - stock_screener - [2454.TW] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:07,680 - DEBUG - risk_models - [2454.TW] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:07,680 - DEBUG - risk_models - [2454.TW] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:07,680 - DEBUG - risk_models - [2454.TW] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:07,680 - WARNING - stock_screener - [2454.TW] 被識別為潛在高風險股票。風險列表: ['[2454.TW] 價格已跌破長期均線 SMA200 (收盤價: 1260.00, SMA200: 1316.45)。'] (stock_screener.py:151)
+2025-06-01 12:11:07,680 - INFO - stock_screener - ---正在處理股票: 0050.TW --- (stock_screener.py:106)
+2025-06-01 12:11:07,680 - INFO - stock_screener - [0050.TW] 未找到有效的本地數據或加載失敗，開始從 API 獲取數據。 (stock_screener.py:53)
+2025-06-01 12:11:07,680 - INFO - yfinance_fetcher - 開始為股票代碼 '0050.TW' 獲取從 2024-03-03 到 2025-06-01 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:11:07,940 - INFO - yfinance_fetcher - 成功獲取股票代碼 '0050.TW' 的 301 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:11:07,940 - INFO - data_processor - [0050.TW] 開始處理 OHLCV 數據。原始數據形狀: (301, 8) (data_processor.py:36)
+2025-06-01 12:11:07,943 - DEBUG - data_processor - [0050.TW] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:11:07,944 - INFO - data_processor - [0050.TW] 數據處理完成。處理後數據形狀: (301, 9) (data_processor.py:103)
+2025-06-01 12:11:07,944 - DEBUG - data_processor - [0050.TW] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/tw_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:11:07,944 - INFO - data_processor - [0050.TW] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/tw_stocks/0050_TW_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:11:07,947 - INFO - data_processor - [0050.TW] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/tw_stocks/0050_TW_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:11:07,947 - INFO - stock_screener - [0050.TW] 新獲取的數據已處理並儲存到: MyFinancialSystem/main_data/market_data/tw_stocks/0050_TW_ohlcv.parquet (stock_screener.py:67)
+2025-06-01 12:11:07,947 - DEBUG - stock_screener - [0050.TW] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:07,948 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (301, 9) (indicator_engine.py:41)
+2025-06-01 12:11:07,948 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:07,949 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:07,952 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:07,952 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:07,952 - DEBUG - indicator_engine - 計算後數據形狀: (301, 13) (indicator_engine.py:79)
+2025-06-01 12:11:07,952 - INFO - stock_screener - [0050.TW] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:07,952 - DEBUG - stock_screener - [0050.TW] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:07,954 - DEBUG - stock_screener - [0050.TW] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:07,955 - DEBUG - risk_models - [0050.TW] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:07,955 - DEBUG - risk_models - [0050.TW] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:07,955 - DEBUG - risk_models - [0050.TW] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:07,955 - WARNING - stock_screener - [0050.TW] 被識別為潛在高風險股票。風險列表: ['[0050.TW] 處於主要下跌趨勢 (收盤價: 179.75 < SMA200: 183.83 且 SMA50: 172.74 < SMA200)。', '[0050.TW] 價格已跌破長期均線 SMA200 (收盤價: 179.75, SMA200: 183.83)。'] (stock_screener.py:151)
+2025-06-01 12:11:07,955 - INFO - stock_screener - ---正在處理股票: SPY --- (stock_screener.py:106)
+2025-06-01 12:11:07,955 - INFO - stock_screener - [SPY] 未找到有效的本地數據或加載失敗，開始從 API 獲取數據。 (stock_screener.py:53)
+2025-06-01 12:11:07,955 - INFO - yfinance_fetcher - 開始為股票代碼 'SPY' 獲取從 2024-03-03 到 2025-06-01 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:11:08,158 - INFO - yfinance_fetcher - 成功獲取股票代碼 'SPY' 的 312 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:11:08,158 - INFO - data_processor - [SPY] 開始處理 OHLCV 數據。原始數據形狀: (312, 8) (data_processor.py:36)
+2025-06-01 12:11:08,162 - DEBUG - data_processor - [SPY] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:11:08,162 - INFO - data_processor - [SPY] 數據處理完成。處理後數據形狀: (312, 9) (data_processor.py:103)
+2025-06-01 12:11:08,162 - DEBUG - data_processor - [SPY] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:11:08,162 - INFO - data_processor - [SPY] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/SPY_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:11:08,165 - INFO - data_processor - [SPY] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/SPY_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:11:08,165 - INFO - stock_screener - [SPY] 新獲取的數據已處理並儲存到: MyFinancialSystem/main_data/market_data/us_stocks/SPY_ohlcv.parquet (stock_screener.py:67)
+2025-06-01 12:11:08,165 - DEBUG - stock_screener - [SPY] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:08,165 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (312, 9) (indicator_engine.py:41)
+2025-06-01 12:11:08,165 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:08,167 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:08,169 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:08,169 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:08,169 - DEBUG - indicator_engine - 計算後數據形狀: (312, 13) (indicator_engine.py:79)
+2025-06-01 12:11:08,169 - INFO - stock_screener - [SPY] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:08,169 - DEBUG - stock_screener - [SPY] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:08,172 - DEBUG - stock_screener - [SPY] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:08,172 - DEBUG - risk_models - [SPY] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:08,172 - DEBUG - risk_models - [SPY] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:08,172 - DEBUG - risk_models - [SPY] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:08,172 - INFO - stock_screener - [SPY] 未觸發顯著風險指標。 (stock_screener.py:154)
+2025-06-01 12:11:08,172 - INFO - stock_screener - ---正在處理股票: TSLA --- (stock_screener.py:106)
+2025-06-01 12:11:08,172 - INFO - stock_screener - [TSLA] 未找到有效的本地數據或加載失敗，開始從 API 獲取數據。 (stock_screener.py:53)
+2025-06-01 12:11:08,172 - INFO - yfinance_fetcher - 開始為股票代碼 'TSLA' 獲取從 2024-03-03 到 2025-06-01 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:11:08,430 - INFO - yfinance_fetcher - 成功獲取股票代碼 'TSLA' 的 312 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:11:08,430 - INFO - data_processor - [TSLA] 開始處理 OHLCV 數據。原始數據形狀: (312, 7) (data_processor.py:36)
+2025-06-01 12:11:08,434 - DEBUG - data_processor - [TSLA] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:11:08,434 - INFO - data_processor - [TSLA] 數據處理完成。處理後數據形狀: (312, 8) (data_processor.py:103)
+2025-06-01 12:11:08,434 - DEBUG - data_processor - [TSLA] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:11:08,434 - INFO - data_processor - [TSLA] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/TSLA_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:11:08,437 - INFO - data_processor - [TSLA] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/TSLA_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:11:08,437 - INFO - stock_screener - [TSLA] 新獲取的數據已處理並儲存到: MyFinancialSystem/main_data/market_data/us_stocks/TSLA_ohlcv.parquet (stock_screener.py:67)
+2025-06-01 12:11:08,438 - DEBUG - stock_screener - [TSLA] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:08,438 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (312, 8) (indicator_engine.py:41)
+2025-06-01 12:11:08,438 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:08,439 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:08,442 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:08,442 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:08,442 - DEBUG - indicator_engine - 計算後數據形狀: (312, 12) (indicator_engine.py:79)
+2025-06-01 12:11:08,442 - INFO - stock_screener - [TSLA] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:08,442 - DEBUG - stock_screener - [TSLA] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:08,445 - DEBUG - stock_screener - [TSLA] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:08,445 - DEBUG - risk_models - [TSLA] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:08,445 - DEBUG - risk_models - [TSLA] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:08,445 - DEBUG - risk_models - [TSLA] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:08,445 - INFO - stock_screener - [TSLA] 未觸發顯著風險指標。 (stock_screener.py:154)
+2025-06-01 12:11:08,445 - INFO - stock_screener - ---正在處理股票: MSFT --- (stock_screener.py:106)
+2025-06-01 12:11:08,445 - INFO - stock_screener - [MSFT] 未找到有效的本地數據或加載失敗，開始從 API 獲取數據。 (stock_screener.py:53)
+2025-06-01 12:11:08,445 - INFO - yfinance_fetcher - 開始為股票代碼 'MSFT' 獲取從 2024-03-03 到 2025-06-01 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:11:08,672 - INFO - yfinance_fetcher - 成功獲取股票代碼 'MSFT' 的 312 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:11:08,672 - INFO - data_processor - [MSFT] 開始處理 OHLCV 數據。原始數據形狀: (312, 7) (data_processor.py:36)
+2025-06-01 12:11:08,676 - DEBUG - data_processor - [MSFT] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:11:08,676 - INFO - data_processor - [MSFT] 數據處理完成。處理後數據形狀: (312, 8) (data_processor.py:103)
+2025-06-01 12:11:08,676 - DEBUG - data_processor - [MSFT] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/us_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:11:08,676 - INFO - data_processor - [MSFT] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/us_stocks/MSFT_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:11:08,679 - INFO - data_processor - [MSFT] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/us_stocks/MSFT_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:11:08,679 - INFO - stock_screener - [MSFT] 新獲取的數據已處理並儲存到: MyFinancialSystem/main_data/market_data/us_stocks/MSFT_ohlcv.parquet (stock_screener.py:67)
+2025-06-01 12:11:08,679 - DEBUG - stock_screener - [MSFT] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:08,679 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (312, 8) (indicator_engine.py:41)
+2025-06-01 12:11:08,679 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:08,681 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:08,683 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:08,683 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:08,683 - DEBUG - indicator_engine - 計算後數據形狀: (312, 12) (indicator_engine.py:79)
+2025-06-01 12:11:08,683 - INFO - stock_screener - [MSFT] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:08,683 - DEBUG - stock_screener - [MSFT] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:08,686 - DEBUG - stock_screener - [MSFT] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:08,686 - DEBUG - risk_models - [MSFT] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:08,686 - DEBUG - risk_models - [MSFT] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:08,686 - DEBUG - risk_models - [MSFT] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:08,686 - INFO - stock_screener - [MSFT] 未觸發顯著風險指標。 (stock_screener.py:154)
+2025-06-01 12:11:08,686 - INFO - stock_screener - ---正在處理股票: 2330.TW --- (stock_screener.py:106)
+2025-06-01 12:11:08,686 - INFO - stock_screener - [2330.TW] 未找到有效的本地數據或加載失敗，開始從 API 獲取數據。 (stock_screener.py:53)
+2025-06-01 12:11:08,686 - INFO - yfinance_fetcher - 開始為股票代碼 '2330.TW' 獲取從 2024-03-03 到 2025-06-01 的 OHLCV 數據。 (yfinance_fetcher.py:29)
+2025-06-01 12:11:08,956 - INFO - yfinance_fetcher - 成功獲取股票代碼 '2330.TW' 的 301 筆數據。 (yfinance_fetcher.py:43)
+2025-06-01 12:11:08,956 - INFO - data_processor - [2330.TW] 開始處理 OHLCV 數據。原始數據形狀: (301, 7) (data_processor.py:36)
+2025-06-01 12:11:08,960 - DEBUG - data_processor - [2330.TW] 已增加 'Symbol' 欄位。 (data_processor.py:101)
+2025-06-01 12:11:08,960 - INFO - data_processor - [2330.TW] 數據處理完成。處理後數據形狀: (301, 8) (data_processor.py:103)
+2025-06-01 12:11:08,960 - DEBUG - data_processor - [2330.TW] 目標儲存目錄 'MyFinancialSystem/main_data/market_data/tw_stocks/' 已確認或創建。 (data_processor.py:144)
+2025-06-01 12:11:08,960 - INFO - data_processor - [2330.TW] 準備將處理後的數據儲存到: MyFinancialSystem/main_data/market_data/tw_stocks/2330_TW_ohlcv.parquet (data_processor.py:155)
+2025-06-01 12:11:08,963 - INFO - data_processor - [2330.TW] 數據已成功儲存到 Parquet 檔案: MyFinancialSystem/main_data/market_data/tw_stocks/2330_TW_ohlcv.parquet (data_processor.py:159)
+2025-06-01 12:11:08,963 - INFO - stock_screener - [2330.TW] 新獲取的數據已處理並儲存到: MyFinancialSystem/main_data/market_data/tw_stocks/2330_TW_ohlcv.parquet (stock_screener.py:67)
+2025-06-01 12:11:08,963 - DEBUG - stock_screener - [2330.TW] 開始計算技術指標... (stock_screener.py:115)
+2025-06-01 12:11:08,963 - INFO - indicator_engine - 開始手動計算技術指標。輸入數據形狀: (301, 8) (indicator_engine.py:41)
+2025-06-01 12:11:08,963 - DEBUG - indicator_engine - 手動計算 SMA (20, 50, 200)... (indicator_engine.py:54)
+2025-06-01 12:11:08,965 - DEBUG - indicator_engine - 手動計算 RSI (period: 14)... (indicator_engine.py:61)
+2025-06-01 12:11:08,967 - WARNING - indicator_engine - OBV 和 MFI 的手動計算暫未實現。 (indicator_engine.py:76)
+2025-06-01 12:11:08,967 - INFO - indicator_engine - 成功手動計算並附加了以下技術指標: SMA_20, SMA_50, SMA_200, RSI_14 (indicator_engine.py:78)
+2025-06-01 12:11:08,968 - DEBUG - indicator_engine - 計算後數據形狀: (301, 12) (indicator_engine.py:79)
+2025-06-01 12:11:08,968 - INFO - stock_screener - [2330.TW] 技術指標計算完成。 (stock_screener.py:120)
+2025-06-01 12:11:08,968 - DEBUG - stock_screener - [2330.TW] 開始評估技術面風險... (stock_screener.py:126)
+2025-06-01 12:11:08,970 - DEBUG - stock_screener - [2330.TW] 開始評估模擬基本面風險... (stock_screener.py:140)
+2025-06-01 12:11:08,970 - DEBUG - risk_models - [2330.TW] (模擬) 檢查高股本負債比。 (risk_models.py:17)
+2025-06-01 12:11:08,970 - DEBUG - risk_models - [2330.TW] (模擬) 檢查負盈利趨勢。 (risk_models.py:25)
+2025-06-01 12:11:08,970 - DEBUG - risk_models - [2330.TW] (模擬) 檢查低利潤率。 (risk_models.py:32)
+2025-06-01 12:11:08,970 - WARNING - stock_screener - [2330.TW] 被識別為潛在高風險股票。風險列表: ['[2330.TW] 處於主要下跌趨勢 (收盤價: 967.00 < SMA200: 999.79 且 SMA50: 926.36 < SMA200)。', '[2330.TW] 價格已跌破長期均線 SMA200 (收盤價: 967.00, SMA200: 999.79)。'] (stock_screener.py:151)
+2025-06-01 12:11:08,971 - INFO - stock_screener - --- 股票篩選與風險評估結束 --- (stock_screener.py:156)
+2025-06-01 12:11:08,971 - INFO - stock_screener - 共篩選出 3 支潛在高風險股票。 (stock_screener.py:158)
+2025-06-01 12:11:08,971 - INFO - test_screener - 步驟 3: 打印篩選結果... (test_screener.py:37)
+2025-06-01 12:11:08,971 - INFO - test_screener - --- Stock Screener 測試腳本結束 --- (test_screener.py:48)
+2025-06-01 12:11:08,971 - INFO - test_screener -
+測試腳本執行完畢。請檢查控制台輸出和日誌檔案 ('MyFinancialSystem/logs/') 以獲取詳細資訊。 (test_screener.py:52)
+2025-06-01 12:11:08,971 - INFO - test_screener - 注意：首次運行時，數據獲取和處理可能需要較長時間。後續運行應利用快取。 (test_screener.py:53)
+2025-06-01 12:14:34,816 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:14:35,441 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:14:35,441 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:14:35,442 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:14:35,442 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:14:35,442 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:14:35,442 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:14:35,442 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:14:35,443 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:14:35,444 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:14:35,444 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:15:03,431 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:15:03,928 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:15:03,928 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:15:03,928 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:15:03,929 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:15:03,929 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:15:03,929 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:15:03,929 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:15:03,931 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:15:03,931 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:15:03,931 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:15:03,931 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:15:03,931 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:15:03,932 - ERROR - run_web_app - 啟動 Dash 伺服器時發生錯誤: app.run_server has been replaced by app.run (run_web_app.py:38)
+Traceback (most recent call last):
+  File "/app/run_web_app.py", line 36, in <module>
+    app.run_server(debug=debug_mode, host=app_host, port=app_port)
+  File "/home/jules/.local/lib/python3.10/site-packages/dash/_obsolete.py", line 22, in __getattr__
+    raise err.exc(err.message)
+dash.exceptions.ObsoleteAttributeException: app.run_server has been replaced by app.run
+2025-06-01 12:15:29,031 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:15:29,504 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:15:29,504 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:15:29,504 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:15:29,504 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:15:29,504 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:15:29,504 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:15:29,504 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:15:29,505 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:15:29,506 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:15:29,506 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:15:29,506 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:15:29,506 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:15:29,506 - ERROR - run_web_app - 啟動 Dash 伺服器時發生錯誤: app.run_server has been replaced by app.run (run_web_app.py:38)
+Traceback (most recent call last):
+  File "/app/run_web_app.py", line 36, in <module>
+    app.run_server(debug=debug_mode, host=app_host, port=app_port)
+  File "/home/jules/.local/lib/python3.10/site-packages/dash/_obsolete.py", line 22, in __getattr__
+    raise err.exc(err.message)
+dash.exceptions.ObsoleteAttributeException: app.run_server has been replaced by app.run
+2025-06-01 12:16:06,149 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:16:06,650 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:16:06,650 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:16:06,650 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:16:06,650 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:16:06,650 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:16:06,650 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:16:06,650 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:16:06,651 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:16:06,652 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:16:06,652 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:16:06,652 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:16:06,652 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:16:07,361 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:16:07,943 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:16:07,944 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:16:07,944 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:16:07,944 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:16:07,944 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:16:07,944 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:16:07,944 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:16:07,945 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:16:07,945 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:16:07,945 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:16:07,945 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:16:07,945 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:23:49,536 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:23:50,034 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:23:50,034 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:23:50,034 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:23:50,034 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:23:50,034 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:23:50,034 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:23:50,034 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:23:50,036 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:23:50,036 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:23:50,036 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:23:50,037 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:23:50,037 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:37:28,324 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:37:28,810 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:37:28,810 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:37:28,810 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:37:28,810 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:37:28,810 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:37:28,810 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:37:28,810 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:37:28,812 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:37:28,812 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:37:28,813 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:37:28,813 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:37:28,813 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:44:30,020 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:44:30,489 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:44:30,490 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:44:30,490 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:44:30,490 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:44:30,490 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:44:30,490 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:44:30,490 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:44:30,491 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:44:30,492 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:44:30,492 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:44:30,492 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:44:30,492 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:45:11,185 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:46:15,379 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:46:15,854 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:46:15,854 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:46:15,854 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:46:15,854 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:46:15,854 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:46:15,854 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:46:15,854 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:46:15,855 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:46:15,856 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:46:15,856 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:46:15,856 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:46:15,856 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:46:50,169 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:46:50,616 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:46:50,616 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:46:50,616 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:46:50,616 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:46:50,616 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:46:50,616 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:46:50,616 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:46:50,617 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:46:50,618 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:46:50,618 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:46:50,618 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:46:50,618 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:47:03,165 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:47:03,607 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:47:03,607 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:47:03,607 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:47:03,607 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:47:03,607 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:47:03,607 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:47:03,607 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:47:03,608 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:47:03,608 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:47:03,609 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:47:03,609 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:47:03,609 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 12:54:01,776 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:54:13,688 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 12:54:14,162 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:54:14,162 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 12:54:14,162 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 12:54:14,162 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 12:54:14,163 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 12:54:14,163 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 12:54:14,163 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 12:54:14,164 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 12:54:14,164 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 12:54:14,165 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 12:54:14,165 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 12:54:14,165 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 13:01:11,730 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 13:01:22,364 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 13:01:22,881 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 13:01:22,881 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 13:01:22,881 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 13:01:22,881 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 13:01:22,881 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 13:01:22,881 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 13:01:22,881 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 13:01:22,882 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 13:01:22,883 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 13:01:22,883 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 13:01:22,883 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 13:01:22,883 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 13:08:17,885 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 13:08:18,394 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 13:08:18,395 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 13:08:18,395 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 13:08:18,395 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 13:08:18,395 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 13:08:18,395 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 13:08:18,395 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 13:08:18,396 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 13:08:18,397 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 13:08:18,397 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 13:08:18,397 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 13:08:18,397 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 13:08:33,679 - INFO - logger_setup - 日誌系統已設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:77)
+2025-06-01 13:08:34,144 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 13:08:34,144 - DEBUG - logger_setup - Logger 'financial_system_log' 已經設定過 handlers，跳過重複設定。 (logger_setup.py:43)
+2025-06-01 13:08:34,144 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 13:08:34,144 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 13:08:34,144 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 13:08:34,145 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 13:08:34,145 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 13:08:34,146 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 13:08:34,146 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 13:08:34,146 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 13:08:34,146 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 13:08:34,146 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 13:16:02,888 - INFO - logger_setup - 日誌系統已為前綴 'financial_system_log' 設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:95)
+2025-06-01 13:16:03,335 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 13:16:03,335 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 13:16:03,335 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 13:16:03,335 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 13:16:03,335 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 13:16:03,336 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 13:16:03,337 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 13:16:03,337 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 13:16:03,337 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 13:16:03,337 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 13:23:48,481 - INFO - logger_setup - 日誌系統已為前綴 'financial_system_log' 設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:95)
+2025-06-01 13:23:49,144 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 13:23:49,144 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 13:23:49,144 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 13:23:49,144 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 13:23:49,144 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 13:23:49,149 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 13:23:49,150 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 13:23:49,150 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 13:23:49,150 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 13:23:49,150 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 13:30:57,830 - INFO - logger_setup - 日誌系統已為前綴 'financial_system_log' 設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:95)
+2025-06-01 13:30:58,386 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 13:30:58,386 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 13:30:58,387 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 13:30:58,387 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 13:30:58,387 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 13:30:58,389 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 13:30:58,389 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 13:30:58,390 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 13:30:58,390 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 13:30:58,390 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
+2025-06-01 13:31:09,005 - INFO - logger_setup - 日誌系統已為前綴 'financial_system_log' 設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:95)
+2025-06-01 13:32:39,497 - INFO - logger_setup - 日誌系統已為前綴 'financial_system_log' 設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:95)
+2025-06-01 13:33:32,761 - INFO - logger_setup - 日誌系統已為前綴 'financial_system_log' 設定。控制台級別: INFO, 檔案級別: DEBUG。日誌檔案路徑: MyFinancialSystem/logs/financial_system_log.log (logger_setup.py:95)
+2025-06-01 13:33:33,250 - INFO - run_web_app - 初始化全域 API 快取 (如果尚未進行)... (run_web_app.py:10)
+2025-06-01 13:33:33,250 - INFO - db_cache_manager - 開始設定全域 API 快取。 (db_cache_manager.py:31)
+2025-06-01 13:33:33,250 - INFO - db_cache_manager - API 快取有效期設定為: 12 小時 (43200 秒)。 (db_cache_manager.py:43)
+2025-06-01 13:33:33,250 - INFO - db_cache_manager - 全域 API 快取資料庫路徑設定為: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (cache_name for requests_cache: MyFinancialSystem/main_data/api_cache/api_cache) (db_cache_manager.py:54)
+2025-06-01 13:33:33,250 - DEBUG - db_cache_manager - 快取目錄 MyFinancialSystem/main_data/api_cache 已存在。 (db_cache_manager.py:65)
+2025-06-01 13:33:33,252 - INFO - db_cache_manager - 全域 requests 快取已成功安裝。快取資料庫: MyFinancialSystem/main_data/api_cache/api_cache.sqlite (db_cache_manager.py:76)
+2025-06-01 13:33:33,252 - INFO - db_cache_manager - requests_cache.is_installed() 確認快取已啟用。 (db_cache_manager.py:79)
+2025-06-01 13:33:33,252 - INFO - run_web_app - 從設定檔讀取 Dash 應用程式設定... (run_web_app.py:13)
+2025-06-01 13:33:33,252 - INFO - run_web_app - 準備啟動 Dash Plotly 前端伺服器於 http://0.0.0.0:8050/ (run_web_app.py:32)
+2025-06-01 13:33:33,252 - INFO - run_web_app - 除錯模式 (Debug Mode): True (run_web_app.py:33)
