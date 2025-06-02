@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body class="light-mode">
+
+    <header id="page-header">
+        <div class="container">
+            <h1>金融市場分析與風險評估系統</h1>
+            <p class="header-subtitle" id="data-freshness-container">數據更新於：(稍後由 JS 更新)</p>
+        </div>
+    </header>
+
+    <nav id="main-navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#dashboard-overview-section" class="nav-link active">核心儀表板</a></li>
+                <li class="nav-item"><a href="#macro-environment" class="nav-link">宏觀環境</a></li>
+                <li class="nav-item"><a href="#stock-options-analysis" class="nav-link">美股選擇權</a></li>
+                <li class="nav-item"><a href="#market-structure" class="nav-link">市場結構</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="main-theme-toggle"><span id="main-theme-toggle-text">暗色模式</span></button>
+                <button id="print-report-button">打印</button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container">
+        <!-- 核心儀表板 -->
+        <section id="dashboard-overview-section" class="content-section">
+            <h2 class="content-section-title">核心儀表板</h2>
+            <div class="kpi-grid">
+                <div class="card">
+                    <h3 class="card-title">核心壓力儀表</h3>
+                    <div id="pressure-gauge-chart" class="plotly-chart-container" style="min-height: 250px;">核心壓力儀表 (Plotly.js) 將顯示於此 (佔位符)</div>
+                    <div class="text-center mt-1">
+                        壓力指數: <span id="pressure-gauge-value">{{ initial_stress_index_value }}</span> (<span id="pressure-gauge-status">{{ initial_stress_index_status }}</span>)
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">殖利率曲線快照</h3>
+                    <div id="mini-yield-curve-chart" class="plotly-chart-container" style="min-height: 250px;">迷你殖利率曲線 (Plotly.js) 將顯示於此 (佔位符)</div>
+                    <div class="text-center mt-1">
+                        2s10s 利差: <span id="yield-spread-2s10s">--</span> bps
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="card-title">關鍵指標</h3>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <h4>VIX 指數</h4>
+                        <p id="kpi-vix-value" class="kpi-value">{{ initial_vix_value }}</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h4>十年期公債殖利率 (DGS10)</h4>
+                        <p id="kpi-dgs10-value" class="kpi-value">--</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h4>MOVE 指數</h4>
+                        <p id="kpi-move-value" class="kpi-value">--</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h4>SOFR 利率</h4>
+                        <p id="kpi-sofr-value" class="kpi-value">--</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="card-title">市場主題摘要</h3>
+                <div id="market-summary-text" class="text-interpretation">
+                    此處將以 1-2 句精煉的中文文字，總結當前影響債券市場最主要的宏觀主題或事件。(佔位符)
+                </div>
+            </div>
+        </section>
+
+        <!-- 宏觀環境分析 -->
+        <section id="macro-environment" class="content-section">
+            <h2 class="content-section-title">層級一：全球宏觀與政策環境分析</h2>
+            <div class="card">
+                <h3 class="card-title">全球經濟展望 <span class="info-icon" title="綜合評估全球主要經濟體的增長前景、通膨趨勢及潛在風險。">&#9432;</span></h3>
+                <div class="text-interpretation"><p>當前全球經濟呈現分化復甦態勢...</p><em>(此處未來可整合來自 IMF, World Bank, OECD 等機構的預測數據圖表或摘要)</em></div>
+                <div class="card-footer">數據來源：綜合分析 | 更新於：YYYY-MM-DD</div>
+            </div>
+            <div class="card">
+                <h3 class="card-title">美國 GDP 增長 <span class="info-icon" title="美國實質國內生產總值">&#9432;</span></h3>
+                <div class="data-status-error">⚠️ <strong>美國 GDP 數據</strong> 自動更新失敗。建議查閱： <a href="https://www.bea.gov/data/gdp/gross-domestic-product" target="_blank">BEA</a> 或 <a href="https://fred.stlouisfed.org/series/GDPC1" target="_blank">FRED</a>。</div>
+                <div id="us-gdp-chart" class="plotly-chart-container" style="display:none;">美國 GDP 增長圖表</div>
+                <div class="text-interpretation" style="display:none;">GDP 數據解讀</div>
+                <div class="card-footer">數據來源：FRED (GDPC1) | 更新於：YYYY-MM-DD (模擬失敗)</div>
+            </div>
+            <!-- Add other macro cards here following the same pattern (CPI, Retail Sales, ISM, PCE, Employment, Fed Policy, Fiscal, Cross-Market) -->
+             <div class="card">
+                <h3 class="card-title">美國 CPI 通膨數據 <span class="info-icon" title="美國消費者物價指數">&#9432;</span></h3>
+                <div class="data-status-error">⚠️ <strong>美國 CPI 數據</strong> 自動更新失敗。建議查閱： <a href="https://www.bls.gov/cpi/" target="_blank">BLS</a> 或 <a href="https://fred.stlouisfed.org/series/CPIAUCSL" target="_blank">FRED</a>。</div>
+                <div id="us-cpi-chart" class="plotly-chart-container" style="display:none;">美國 CPI 圖表</div>
+                <div class="text-interpretation" style="display:none;">CPI 數據解讀</div>
+                <div class="card-footer">數據來源：FRED (CPIAUCSL, CPILFESL) | 更新於：YYYY-MM-DD (模擬失敗)</div>
+            </div>
+            <div class="card">
+                <h3 class="card-title">跨市場關聯性分析 <span class="info-icon" title="觀察主要資產類別相關性及風險溢價指標。">&#9432;</span></h3>
+                <div id="cross-asset-chart" class="plotly-chart-container" style="display:none;">跨市場關聯圖表</div>
+                <div class="text-interpretation"><p>VIX 指數 (股市恐慌指數) 最新值：<span id="vix-value-macro">{{ initial_vix_value }}</span> (狀態：[高/中/低])。</p></div>
+                 <div class="card-footer">數據來源：綜合市場數據 | 更新於：YYYY-MM-DD</div>
+            </div>
+        </section>
+
+        <!-- 美股選擇權籌碼分析 -->
+        <section id="stock-options-analysis" class="content-section">
+            <h2 class="content-section-title">美股選擇權籌碼分析</h2>
+            <div class="options-input-area">
+                <label for="stock-ticker-input" style="margin-right: 10px;">股票代號：</label>
+                <input type="text" id="stock-ticker-input" placeholder="例如：AAPL" value="AAPL">
+                <button id="analyze-stock-btn">分析</button>
+            </div>
+            <div id="options-analysis-text" class="text-interpretation">
+                <!-- Initial content can be AAPL's analysis text or a placeholder -->
+                請輸入股票代號 (例如 AAPL) 並點擊「分析」。
+            </div>
+            <div id="options-plotly-chart" class="plotly-chart-container" style="margin-top: 15px;">
+                <!-- Plotly chart will be rendered here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- 市場結構與流動性分析 (預設隱藏) -->
+        <section id="market-structure" class="content-section" style="display:none;">
+            <h2 class="content-section-title">層級二：市場結構與流動性分析</h2>
+            <div class="card">
+                <h3 class="card-title">主要市場參與者動態 <span class="info-icon" title="分析主要參與者在債券市場的持倉和交易行為變化。">&#9432;</span></h3>
+                <div id="market-participants-chart" class="plotly-chart-container" style="display:none;">市場參與者持倉圖表</div>
+                <div class="text-interpretation"><p>一級交易商活動：分析交易量、淨持倉變化...</p></div>
+                <div class="card-footer">數據來源：綜合公開數據 | 更新於：YYYY-MM-DD</div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="page-footer">
+        <div class="container">
+            <p>© {{ current_year }} 金融市場分析與風險評估系統 MVP. 版權所有. (此為範例頁尾，請替換為實際內容)</p>
+        </div>
+    </footer>
+
+    <script>
+        window.embeddedAAPLData = {
+            ticker: "AAPL", // To help JS identify this data block
+            analysisText: {{ aapl_analysis_text|tojson }},
+            plotlyJson: {{ aapl_plotly_json|tojson }}
+        };
+    </script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

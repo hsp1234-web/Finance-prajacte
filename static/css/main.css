@@ -1,0 +1,108 @@
+/* 全局變量定義，用於主題切換 */
+:root {
+    --body-bg-light: #f4f7f9; --text-color-light: #333;
+    --body-bg-dark: #1a1a1a; --text-color-dark: #f0f0f0;
+    --content-section-bg-light: #ffffff; --content-section-border-light: #e0e0e0;
+    --content-section-bg-dark: #2c2c2c; --content-section-border-dark: #444;
+    --button-bg-light: #007bff; --button-text-light: white;
+    --button-bg-dark: #0056b3; --button-text-dark: white;
+    --input-bg-light: #fff; --input-text-light: #333; --input-border-light: #ccc;
+    --input-bg-dark: #333; --input-text-dark: #f0f0f0; --input-border-dark: #555;
+    --kpi-card-bg-light: #e9f5ff; --kpi-card-border-light: #cce0ff;
+    --kpi-card-bg-dark: #1c3a50; --kpi-card-border-dark: #336699;
+    --kpi-title-light: #0056b3; --kpi-title-dark: #99ccff;
+    --kpi-value-light: #003366; --kpi-value-dark: #e6f3ff;
+    --text-interpretation-bg-light: #f9f9f9; --text-interpretation-border-light: #007bff;
+    --text-interpretation-bg-dark: #252525; --text-interpretation-border-dark: #66b3ff;
+}
+/* 通用頁面樣式 */
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: var(--body-bg-light); color: var(--text-color-light); transition: background-color 0.3s, color 0.3s; font-size: 16px; line-height: 1.6;}
+.container {width: 90%; max-width: 1600px; margin: 0 auto; padding: 20px;}
+/* 暗色模式特定樣式 */
+body.dark-mode {background-color: var(--body-bg-dark); color: var(--text-color-dark);}
+body.dark-mode .card, body.dark-mode .content-section,
+body.dark-mode header#page-header, body.dark-mode nav#main-navigation {
+    background-color: var(--content-section-bg-dark);
+    color: var(--text-color-dark);
+    border-color: var(--content-section-border-dark);
+}
+body.dark-mode button {background-color: var(--button-bg-dark); color: var(--button-text-dark); border-color: var(--content-section-border-dark);}
+body.dark-mode input, body.dark-mode select, body.dark-mode textarea {
+    background-color: var(--input-bg-dark);
+    color: var(--input-text-dark);
+    border-color: var(--input-border-dark);
+}
+input, select, textarea {background-color: var(--input-bg-light); color: var(--input-text-light); border: 1px solid var(--input-border-light); padding: 8px; border-radius: 4px;}
+body.dark-mode .data-table th, body.dark-mode .data-table td {
+    background-color: var(--content-section-bg-dark);
+    color: var(--text-color-dark);
+    border-color: var(--content-section-border-dark);
+}
+body.dark-mode .data-table tr:nth-child(even) {background-color: #333333;}
+body.dark-mode .data-table tr:hover {background-color: #404040;}
+button:hover {background-color: #0056b3;}
+body.dark-mode button:hover {background-color: #003d80;} /* 按鈕懸停效果 */
+a {color: #007bff; text-decoration:none;}
+body.dark-mode a {color: #66b3ff;} body.dark-mode a:hover {color: #99ccff;}
+.nav-link.active {background-color: #007bff;}
+body.dark-mode .nav-link.active {background-color: #0056b3;}
+/* 頁首樣式 */
+header#page-header {background-color: #ffffff; color: #333; padding: 15px 0; border-bottom: 1px solid #e0e0e0; text-align: center; position: sticky; top: 0; z-index: 1000;}
+header#page-header h1 {margin: 0; font-size: 1.8em; color: #0056b3;}
+body.dark-mode header#page-header h1 {color: #66b3ff;}
+.header-subtitle {font-size: 0.9em; color: #666; margin-top: 5px;}
+body.dark-mode .header-subtitle {color: #ccc;}
+/* 導航列樣式 */
+nav#main-navigation {background-color: #333; padding: 10px 0; text-align: center; position: sticky; top: 77px; z-index: 999; border-bottom: 1px solid #444;}
+body.dark-mode nav#main-navigation {background-color: #222; border-bottom: 1px solid #333;}
+.nav-list {list-style: none; padding: 0; margin: 0; display: inline-block;}
+.nav-item {display: inline-block; margin-right: 10px;}
+.nav-link {color: #fff; text-decoration: none; padding: 8px 15px; border-radius: 4px; font-weight: 500;}
+.nav-controls {display: inline-block; margin-left: 20px;}
+.nav-controls button {padding: 8px 12px; margin-left: 5px; border:none; border-radius:4px; cursor:pointer;}
+.hidden-icon {display: none;}
+/* 主要內容區樣式 */
+#main-content {padding-top: 20px; min-height: calc(100vh - 250px);}
+.content-section {background-color: var(--content-section-bg-light); padding: 25px; margin-bottom: 25px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); border: 1px solid var(--content-section-border-light);}
+.card {background-color: var(--content-section-bg-light); padding: 20px; margin-bottom: 20px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border: 1px solid var(--content-section-border-light);}
+body.dark-mode .card {background-color: var(--content-section-bg-dark); border-color: var(--content-section-border-dark); box-shadow: 0 2px 4px rgba(0,0,0,0.2);}
+.content-section-title, .content-section h2 {color: #0056b3; margin-top: 0; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; font-size: 1.5em; margin-bottom: 20px;}
+body.dark-mode .content-section-title, body.dark-mode .content-section h2 {color: #66b3ff; border-bottom-color: #444;}
+.card-title, .content-section h3 {color: #007bff; font-size: 1.2em; margin-top: 0; margin-bottom: 15px;}
+body.dark-mode .card-title, body.dark-mode .content-section h3 {color: #79b8ff;}
+/* KPI 卡片 */
+.kpi-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;}
+.kpi-card {background-color: var(--kpi-card-bg-light); padding: 15px; border-radius: 6px; border: 1px solid var(--kpi-card-border-light); text-align: center;}
+body.dark-mode .kpi-card {background-color: var(--kpi-card-bg-dark); border-color: var(--kpi-card-border-dark);}
+.kpi-card h4 {margin-top:0; margin-bottom:8px; font-size:1em; color: var(--kpi-title-light);}
+body.dark-mode .kpi-card h4 {color: var(--kpi-title-dark);}
+.kpi-value {font-size:1.6em; font-weight:bold; color: var(--kpi-value-light);}
+body.dark-mode .kpi-value {color: var(--kpi-value-dark);}
+/* 文字解讀區塊 */
+.text-interpretation {font-size:0.95em; color: var(--text-color-light); margin-top:10px; padding:10px; background-color:var(--text-interpretation-bg-light); border-left:3px solid var(--text-interpretation-border-light); border-radius:0 4px 4px 0;}
+body.dark-mode .text-interpretation {color:var(--text-color-dark); background-color:var(--text-interpretation-bg-dark); border-left-color:var(--text-interpretation-border-dark);}
+/* 美股選擇權分析區塊特定樣式 */
+.options-input-area {margin-bottom:20px; display:flex; align-items:center;}
+#options-analysis-text {white-space: pre-wrap; padding:15px; border-radius:5px; margin-top:20px; border: 1px solid var(--content-section-border-light); background-color: var(--content-section-bg-light); }
+body.dark-mode #options-analysis-text { background-color: var(--content-section-bg-dark); border-color: var(--content-section-border-dark); }
+#options-plotly-chart {min-height: 600px; margin-top: 15px;}
+.plotly-chart-container { width: 100%; min-height: 450px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; background-color: #f0f0f0; border: 1px dashed #ccc; color: #888; }
+body.dark-mode .plotly-chart-container { background-color: #2a2a2a; border-color: #555; color: #aaa; }
+.chart-placeholder {display:flex; justify-content:center; align-items:center; height:100%; color: #888;}
+/* 頁尾樣式 */
+footer#page-footer {text-align:center;padding:20px 0;margin-top:30px;background-color:#e9ecef;border-top:1px solid #ddd;font-size:0.9em;width:100%;}
+body.dark-mode footer#page-footer {background-color:#222;border-top-color:#444;color:#ccc;}
+/* 打印樣式 */
+@media print {
+    body {background-color:#fff !important; color:#000 !important; font-size:10pt;}
+    nav#main-navigation, header#page-header .nav-controls, footer#page-footer, #main-theme-toggle, #print-report-button {display:none !important;}
+    header#page-header {position:static; text-align:left;}
+    .content-section, .card {box-shadow:none!important; border:1px solid #ccc!important;}
+    .plotly-chart-container {min-height:auto; page-break-inside:avoid; background-color:#fff!important; border:1px solid #ccc!important; color:#000!important;}
+    body.dark-mode, body.dark-mode .card, body.dark-mode .content-section, body.dark-mode header#page-header,
+    body.dark-mode .data-table th, body.dark-mode .data-table td,
+    body.dark-mode .kpi-card, body.dark-mode .plotly-chart-container {
+        background-color: #fff !important; color: #000 !important; border-color: #ccc !important;
+    }
+    body.dark-mode a, body.dark-mode .kpi-card h4, body.dark-mode .kpi-value {color: #000 !important;}
+}
